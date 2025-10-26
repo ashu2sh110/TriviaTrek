@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.QuestionActivity">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top|center"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/question_text_View"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:text="what_country_does_this_flag_belong_to"
+            android:textSize="25sp"
+            android:textStyle="normal" />
+
+        <ImageView
+            android:id="@+id/flag_image_view"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_marginTop="15dp"
+            android:contentDescription="image_flag"
+            android:src="@drawable/india" />
+
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <ProgressBar
+                android:id="@+id/progress_bar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="0sp"
+                android:layout_marginRight="12dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="9"
+                android:indeterminate="false"
+                android:max="10"
+                android:minHeight="50dp"
+                tools:progress="7" />
+
+            <TextView
+                android:id="@+id/text_view_progress"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="_0_10"
+                android:textSize="13sp"
+                android:layout_weight="1"
+                android:layout_marginStart="5dp"
+                android:layout_gravity="center_vertical"/>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <TextView
+            android:id="@+id/text_View_option1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:textStyle="normal"
+            android:textColor="@color/cardview_dark_background"
+            android:gravity="center"
+            tools:text = "option 1"
+            android:background="@drawable/default_option_bg"
+            android:minHeight="50dp"/>
+        <TextView
+            android:id="@+id/text_View_option2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:textStyle="normal"
+            android:textColor="@color/cardview_dark_background"
+            android:gravity="center"
+            tools:text = "option 2"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/default_option_bg"
+            android:minHeight="50dp"/>
+        <TextView
+            android:id="@+id/text_View_option3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:textStyle="normal"
+            android:textColor="@color/cardview_dark_background"
+            android:gravity="center"
+            tools:text = "option 3"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/default_option_bg"
+            android:minHeight="50dp"/>
+
+        <TextView
+            android:id="@+id/text_View_option4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:textStyle="normal"
+            android:textColor="@color/cardview_dark_background"
+            android:gravity="center"
+            tools:text = "option 4"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/default_option_bg"
+            android:minHeight="50dp"/>
+
+        <Button
+            android:id="@+id/button_check_ans"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="check"
+            android:textColor="@color/white"
+            android:layout_marginTop="20dp"
+            android:minHeight="50dp"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.core.widget.NestedScrollView>
