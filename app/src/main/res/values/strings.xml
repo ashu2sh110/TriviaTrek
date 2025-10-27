@@ -7,4 +7,6 @@
     <string name="start">Start</string>
     <string name="your_score">Your Score</string>
     <string name="view_leaderboard">View leaderboard</string>
+    <string name="name">Name</string>
+    <string name="score">Score</string>
 </resources>

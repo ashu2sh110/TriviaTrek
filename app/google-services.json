@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "526739950923",
+    "firebase_url": "https://flagquizapp-6cc22-default-rtdb.firebaseio.com",
+    "project_id": "flagquizapp-6cc22",
+    "storage_bucket": "flagquizapp-6cc22.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:526739950923:android:2c57ea7e52a08a817fecce",
+        "android_client_info": {
+          "package_name": "com.example.quizapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtONfu0nUN2o0x1-C9-F98YtT4fHfn2jE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
