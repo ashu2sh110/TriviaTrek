@@ -1,4 +1,4 @@
-# 🚩 Flag Quiz App
+# 🚩 TriviaTrek Quiz App
 
 A fun and interactive Android quiz application that challenges your knowledge of world flags. Test your skills and see how many flags you can correctly identify!
 
